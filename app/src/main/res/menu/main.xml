@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refesh"
+        android:icon="@drawable/refresh_24dp"
+        android:title="refresh"
+        app:showAsAction="always" />
+    <item android:id="@+id/save"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="save"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/start_trace"
+        android:title="采集轨迹" />
+    <item
+        android:id="@+id/stop_trace"
+        android:title="停止采集" />
+    <item android:id="@+id/stop_locate"
+        android:title="停止定位"/>
+</menu>
